@@ -1,23 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #d0d0d0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .business-card {
+            background-color: #f5f5f0; /* Off-white color for a paper-like feel */
+            border: 1px solid #333333;
+            padding: 30px 50px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            border-radius: 0; /* Sharp 90-degree corners */
+        }
+
+        h1 {
+            color: #333333;
+            font-size: 2rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333333;
+            padding-bottom: 10px;
+        }
+
+        p {
+            color: #666666;
+            font-size: 1rem;
+            margin: 15px 0;
+        }
+
+        .links a {
+            display: inline-block;
+            color: #ffffff;
+            background-color: #333333;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 0; /* Sharp corners for the buttons as well */
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .links a:hover {
+            background-color: #555555;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #999999;
+        }
+    </style>
+</head>
 <body>
-<h1>Welcome To My Website</h1>
-<br>
-<p>There's not much here right now</p>
+    <div class="business-card">
+        <h1>Oscar Gibbs</h1>
+        <p>Welcome to my portfolio. Explore my work below.</p>
 
+        <div class="links">
+            <a href="https://www.youtube.com/@Pelt_">Videos</a>
+            <a href="https://github.com/OscarGibbs">Code</a>
+            <a href="https://social.thangs.com/u/833354">3D Files</a>
+		<a href="www.linkedin.com/in/oscar-gibbs">Linkedin</a>
+        </div>
 
-<p>You can find my work/stuff here:</p>
-<a href="https://www.youtube.com/@Pelt_">My Youtube channel</a>
-<br>
-<a href="https://github.com/OscarGibbs">My Github Account</a>
-<br>
-<a href="https://social.thangs.com/u/833354">My Thangs Account</a>
-<br>
-
-
-<br><br>
-<p>Maybe in a few years the website will have more</p>
-<br><br>
-<p>Many Thanks to GitHub for hosting this website for free</p>
+        <footer>
+            <p>Thanks to GitHub for hosting this website for free.</p>
+        </footer>
+    </div>
 </body>
 </html>
+	
